@@ -64,8 +64,8 @@ header img{
     position: relative;
     overflow: hidden;
 }
-.banner img{
-    width: 7.51rem;
+#banner{
+    width: 7.52rem;
 }
 .banner #shadow{
     position: absolute;
