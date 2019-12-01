@@ -1,0 +1,210 @@
+body{
+    background: #fcfcfc;
+}
+/*  头部开始  */
+header{
+    width: 100%;
+    height: 0.88rem;
+    background: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99;
+}
+header #del{
+    font-size: 0.3rem;
+    color: #000;
+    float: left;
+    margin: 0 0 0 0.24rem;
+    line-height: 0.88rem;
+}
+header #more{
+    font-size: 0.3rem;
+    color: #000;
+    float: right;
+    margin: 0 0.24rem 0 0;
+    line-height: 0.88rem;
+}
+header img{
+    width: 0.92rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+/*  头部结束  */
+/*  个人资料开始  */
+.personal{
+    height: 4.5rem;
+    position: relative;
+}
+.personal img{
+    width: 7.5rem;
+    margin-top: 0.88rem;
+}
+.personal .personal-box{
+    width: 6.22rem;
+    height: 2.3rem;
+    border-radius: 0.1rem;
+    padding: 0.6rem 0.4rem;
+    position: absolute;
+    top: 1.38rem;
+    background: white;
+    right: 0.24rem;
+    box-shadow: 0 0.01rem 0.21rem 0.01rem rgba(118,118,118,0.17);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.personal-box-top{
+    width: 5.82rem;
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.personal-box-top .left{
+    width: 3rem;
+    height: 0.6rem;
+}
+.personal-box-top .left h1 {
+    font-size: 0.26rem;
+    font-weight: 400;
+    color: black;
+    display: inline-block;
+}
+.personal-box-top .left i{
+    display: inline-block;
+    font-size: 0.3rem;
+    color: #ffcb3f;
+ }
+.personal-box-top .left h2{
+    font-size: 0.18rem;
+    font-weight: 400;
+    color: rgba(0,0,0,0.7);
+}
+.personal-box-top .right{
+    width: 1rem;
+    height: 1rem;
+}
+.personal-box-top .right img{
+    width: 1rem;
+    margin: 0;
+}
+.personal-box-bottom{
+    width: 5.82rem;
+    height: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+.personal-box-bottom a{
+    text-align: center;
+    font-size: 0.24rem;
+    color: black;
+}
+.personal-box-bottom a i{
+    font-size: 0.35rem;
+    margin-bottom: 0.05rem;
+    color: #ffcb3f;
+}
+/*  个人资料结束  */
+/*  设置开始  */
+.set-up{
+    width: 6.02rem;
+    height: 3.45rem;
+    border-radius: 0.1rem;
+    padding: 0.4rem 0.5rem;
+    margin: 0.6rem auto 0;
+    background: white;
+    box-shadow: 0 0.01rem 0.21rem 0.01rem rgba(118,118,118,0.17);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.set-up .box-1{
+    width: 6.02rem;
+    display: flex;
+    justify-content: space-between;
+}
+.set-up .box-1 div{
+    text-align: center;
+}
+.set-up .box-1 i{
+    color: #ffcb3f;
+    font-size: 0.35rem;
+}
+.set-up .box-1 p{
+    color: black;
+    font-size: 0.24rem;
+    margin-top: 0.1rem;
+}
+.set{
+    margin: 0 0.24rem;
+}
+.preferential{
+    margin: 0 0.12rem;
+}
+/*  设置结束  */
+/*  关于我们开始  */
+.about-us{
+    width: 6.02rem;
+    height: 1.47rem;
+    border-radius: 0.1rem;
+    padding: 0.4rem 0.5rem 0.65rem 0.5rem;
+    margin: 0.25rem auto 1.2rem;
+    background: white;
+    box-shadow: 0 0.01rem 0.21rem 0.01rem rgba(118,118,118,0.17);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-us .box{
+    height: 0.42rem;
+    color: black;
+    font-size: 0.24rem;
+    border-bottom: 0.02rem solid #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+}
+.about-us .box i{
+    font-size: 0.3rem;
+    color: #ffcb3f;
+}
+.about-us .box .icon-icon-copy{
+    color: #686868;
+    line-height: 0.42rem;
+}
+/*  关于我们结束  */
+/*  tab开始  */
+.tab{
+    width: 100%;
+    height: 0.98rem;
+    background: #fafafa;
+    border-top: 0.02rem solid #bfbfbf;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+}
+.tab a{
+    height: 0.98rem;
+    width: 1.875rem;
+    float: left;
+    color: #000;
+    font-size: 0.18rem;
+    text-align: center;
+    margin-top: 0.16rem;
+}
+.tab .icon-4{
+    color: #ffcb3f;
+    font-weight: 700;
+}
+.tab .icon-4{
+    margin: 0.1rem 0 0 0;
+}
+.tab i{
+    font-size: 0.45rem;
+}
+/*  tab结束  */

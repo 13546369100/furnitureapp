@@ -1,0 +1,368 @@
+body{
+    background: #fcfcfc;
+}
+/*  头部开始  */
+header{
+    width: 100%;
+    height: 0.88rem;
+    background: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-bottom: 1px solid #f2f2f2;
+    z-index: 99;
+}
+header #del{
+    font-size: 0.3rem;
+    color: #000;
+    float: left;
+    margin: 0 0 0 0.24rem;
+    line-height: 0.88rem;
+}
+header #more{
+    font-size: 0.3rem;
+    color: #000;
+    float: right;
+    margin: 0 0.24rem 0 0;
+    line-height: 0.88rem;
+}
+header img{
+    width: 0.92rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+/*  头部结束  */
+/*  订单内容开始  */
+.shop-1{
+    width: 7.02rem;
+    height: 2.3rem;
+    margin: 0.88rem 0.24rem 0;
+    border-bottom: 2px solid #f2f2f2;
+    background: white;
+}
+.shop-1 div{
+    float: left;
+}
+.shop-1 .dot{
+    width: 0.6rem;
+    height: 100%;
+    position: relative;
+}
+.shop-1 .dot .dot-1{
+    width: 0.22rem;
+    height: 0.22rem;
+    border: 2px solid #ffcb3f;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.shop-1 .dot .dot-2{
+    width: 0.14rem;
+    height: 0.14rem;
+    background: #ffcb3f;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.shop-1 .dot .cross{
+    width: 0.48rem;
+    height: 0.02rem;
+    background: #ffcb3f;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.shop-1 .img{
+    width: 2.18rem;
+    height: 100%;
+    margin: auto auto;
+    position: relative;
+}
+.img img{
+    height: 1.4rem;
+    width: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.shop-1 .text{
+    width: 2.44rem;
+    height: 1.8rem;
+    padding: 0.5rem 0 0;
+}
+.shop-1 .text h1{
+    font-size: 0.18rem;
+    font-weight: 200;
+}
+.shop-1 .text h2{
+    font-size: 0.24rem;
+    font-weight: 400;
+    margin-top: 0.05rem;
+}
+.shop-1 .text h3{
+    font-size: 0.18rem;
+    font-weight: 200;
+    margin-top: 0.1rem;
+}
+.shop-1 .text h4{
+    font-size: 0.24rem;
+    font-weight: 700;
+    margin-top: 0.15rem;
+}
+.shop-1 .text h4 span{
+    font-size: 0.18rem;
+    font-weight: 400;
+}
+.shop-1 .icon-1{
+    width: 0.74rem;
+    height: 100%;
+    position: relative;
+}
+.shop-1 .icon-1 .subtract{
+    width: 0.32rem;
+    height: 0.32rem;
+    border-radius: 0.02rem;
+    border: 0.04rem solid #e5e5e5;
+    font-size: 0.3rem;
+    color: black;
+    text-align: center;
+    line-height: 0.3rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.shop-1 .number{
+    width: 0.52rem;
+    height: 100%;
+    text-align: left;
+    line-height: 2.3rem;
+    color: black;
+    font-size: 0.24rem;
+}
+.shop-1 .icon-2{
+    width: 0.4rem;
+    height: 100%;
+    position: relative;
+}
+.shop-1 .icon-2 .subtract{
+    width: 0.32rem;
+    height: 0.32rem;
+    border-radius: 0.02rem;
+    border: 0.04rem solid #e5e5e5;
+    font-size: 0.3rem;
+    color: black;
+    text-align: center;
+    line-height: 0.3rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#shop-2{
+    margin: 0 0.24rem;
+}
+#shop-3{
+    margin: 0 0.24rem;
+}
+/*  订单内容结束  */
+/*  推荐开始  */
+.recommended{
+    width: 7.02rem;
+    margin: 0.7rem 0.24rem 0;
+    font-size: 0.3rem;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+}
+.recommended .yellow{
+    width: 0.04rem;
+    height: 0.2rem;
+    background: #ffcb3f;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.recommended  span{
+    float: left;
+    margin: 0 0 0 0.1rem;
+}
+ul{
+    width: 7.02rem;
+    margin: 0.32rem 0.24rem 1.98rem;
+    overflow: hidden;
+}
+ul li{
+    width: 3.25rem;
+    height: 5.1rem;
+    margin: 0.13rem;
+    float: left;
+}
+ul li img{
+    width: 3.25rem;
+}
+ul li div{
+    width: 0.32rem;
+    height: 0.02rem;
+    background: black;
+    margin: 0.24rem 0 0 0.24rem;
+}
+ul li h4{
+    font-size: 0.18rem;
+    color: black;
+    font-family: Arial;
+    font-weight: 400;
+    margin: 0.12rem 0 0 0.24rem;
+}
+ul li h5{
+    font-size: 0.24rem;
+    color: black;
+    font-weight: 400;
+    margin: 0.08rem 0 0 0.24rem;
+}
+ul li h6{
+    font-size: 0.32rem;
+    color: #000;
+    font-weight: 700;
+    font-family: Arial;
+    margin: 0.5rem 0 0 0.24rem;
+    float: left;
+}
+li h6 span{
+    font-size: 0.18rem;
+    color: black;
+    font-weight: 400;
+}
+ul li .bug{
+    width: 1.45rem;
+    height: 0.43rem;
+    float: right;
+    font-size: 0.22rem;
+    color: white;
+    background: #ffcb3f;
+    margin: 0.45rem 0.2rem 0 0;
+    text-align: center;
+    line-height: 0.43rem;
+    border-radius: 0.04rem;
+}
+ul li  .bug i{
+    font-size: 0.18rem;
+    color: white;
+    background: #ffcb3f;
+}
+/*  推荐结束  */
+/*  购买开始  */
+.buy{
+    width: 100%;
+    height: 0.88rem;
+    background: white;
+    border-top: 0.01rem solid #e5e5e5;
+    border-bottom: 0.01rem solid #bfbfbf;
+    /*margin-bottom: 0.98rem;*/
+    position: fixed;
+    bottom: 0.98rem;
+    left: 0;
+}
+.buy .dot{
+    width: 0.22rem;
+    height: 0.22rem;
+    border: 0.02rem solid #ffcb3f;
+    border-radius: 50%;
+    margin: 0.36rem 0 0 0.42rem;
+    float: left;
+}
+.buy .text-1{
+    width: 1.06rem;
+    height: 0.88rem;
+    font-size: 0.24rem;
+    color: black;
+    line-height: 0.98rem;
+    text-align: center;
+    float: left;
+}
+.buy .text-2{
+    padding: 0.1rem 0;
+    float: left;
+}
+.buy .text-2 h1{
+    font-size: 0.24rem;
+    font-weight: 400;
+    color: black;
+}
+.buy .text-2 .text-2-1{
+    font-size: 0.26rem;
+    font-family: Arial;
+    color: #ffcb3f;
+    font-weight: 700;
+}
+.buy .text-2 .text-2-2{
+    font-size: 0.18rem;
+    font-family: Arial;
+    color: black;
+    font-weight: 400;
+}
+.buy .buy-now{
+    width: 2.12rem;
+    height: 0.9rem;
+    background: #ffcb3f;
+    color: white;
+    font-size: 0.28rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 0.9rem;
+    float: right;
+}
+.buy .text-2 h2{
+    font-size: 0.18rem;
+    color: #9d9d9d;
+    font-weight: 400;
+}
+/*  购买结束  */
+/*  tab栏开始  */
+.tab{
+    width: 100%;
+    height: 0.98rem;
+    background: #fafafa;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+}
+.tab a{
+    height: 0.98rem;
+    width: 1.875rem;
+    float: left;
+    color: #000;
+    font-size: 0.18rem;
+    text-align: center;
+    margin-top: 0.16rem;
+}
+.tab .icon-1{
+    color: #ffcb3f;
+    font-weight: 700;
+}
+.tab .icon-4{
+    margin: 0.1rem 0 0 0;
+}
+.tab i{
+    font-size: 0.45rem;
+}
+/*  tab栏结束  */
