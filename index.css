@@ -1,0 +1,778 @@
+body{
+    background: #f6f6f6;
+}
+/*  头部开始  */
+header{
+    width: 100%;
+    height: 0.88rem;
+    background: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99;
+}
+header #del{
+    font-size: 0.3rem;
+    color: #000;
+    float: left;
+    margin: 0 0 0 0.24rem;
+    line-height: 0.88rem;
+}
+header #more{
+    font-size: 0.3rem;
+    color: #000;
+    float: right;
+    margin: 0 0.24rem 0 0;
+    line-height: 0.88rem;
+}
+header img{
+    width: 0.92rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+/*  头部结束  */
+/*  导航开始  */
+.navigation ul{
+    width: 7rem;
+    height: 0.86rem;
+    padding: 0 0.25rem;
+    margin: 0.88rem 0 0;
+    background: white;
+    border-top: 0.01rem solid #f2f2f2;
+    border-bottom: 0.01rem solid #ffcb3f;
+}
+.navigation li{
+    width: 2rem;
+    height: 0.86rem;
+    text-align: left;
+    line-height: 0.86rem;
+    float: left;
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.7);
+}
+.navigation .text-4{
+    width: 1rem;
+}
+/*  导航结束  */
+/*  banner开始  */
+.banner{
+    width: 7.5rem;
+    position: relative;
+    overflow: hidden;
+}
+#banner{
+    width: 7.52rem;
+}
+.banner #shadow{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.banner .top{
+    width: 1.09rem;
+    height: 0.33rem;
+    background: #ffcb3f;
+    color: white;
+    font-size: 0.18rem;
+    font-family: Arial;
+    font-weight: 700;
+    text-align: center;
+    line-height: 0.33rem;
+    position: absolute;
+    left: 0.64rem;
+    bottom: 0.97rem;
+    z-index: 2;
+    border-radius: 0.1rem;
+}
+.banner .bottom{
+    width: 1.05rem;
+    height: 0.29rem;
+    border: 0.02rem solid rgba(0,0,0,0.2);
+    position: absolute;
+    left: 0.68rem;
+    bottom: 0.93rem;
+    border-radius: 0.1rem;
+}
+.banner-point{
+    overflow: hidden;
+    position: absolute;
+    bottom: 0.16rem;
+    left: 3.29rem;
+}
+.banner-point a{
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 0 0.32rem 0 0;
+    float: left;
+}
+.banner-point .point-3{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    margin: 0;
+}
+/*  banner结束  */
+.empty{
+    width: 100%;
+    height: 0.8rem;
+}
+/*  精品首发标题开始  */
+.title-1{
+    width: 2.2rem;
+    /*height: 0.94rem;*/
+    margin: 0 auto;
+}
+.title-1 .yellow{
+    width: 0.65rem;
+    height: 0.02rem;
+    background: #ffcb3f;
+    margin: 0 0 0.08rem;
+}
+.title-1 .gray{
+    width: 2.2rem;
+    height: 0.01rem;
+    background: #d7d7d7;
+    margin: 0 0 0.06rem;
+}
+.title-1 .text-1{
+    color: #11100f;
+    font-size: 0.16rem;
+    margin: 0 auto;
+    font-family: Arial;
+    font-weight: 400;
+    text-align: center;
+}
+.title-1 .text-2{
+    color: #000;
+    font-size: 0.44rem;
+    margin: 0 auto;
+    font-weight: 400;
+    text-align: center;
+}
+.title-1 .text-2 span{
+    color: #ffcb3f;
+    font-weight: 700;
+}
+.title-1 .black{
+    width: 0.4rem;
+    height: 0.02rem;
+    background: black;
+    margin: 0.17rem auto 0;
+}
+/*  精品首发标题结束  */
+/*  精品首发内容开始  */
+.content-1{
+    height: 5.5rem;
+    margin: 0.18rem 0 0;
+    overflow: hidden;
+}
+.content-1 .text-3{
+    font-size: 0.2rem;
+    color: black;
+    float: right;
+    margin: 0 0.24rem 0 0;
+}
+.content-1 .text-3 span{
+    font-weight: 700;
+    color: #ffcb3f;
+}
+.content-1 ul{
+    width: 7.5rem;
+    height: 5.1rem;
+    margin: 0.37rem 0 0;
+    position: relative;
+}
+.content-1 ul li{
+    width: 3.1rem;
+    height: 5.1rem;
+    background: white;
+    margin: 0 0 0 0.24rem;
+    float: left;
+    position: relative;
+}
+.content-1 .content-1-3{
+    position: absolute;
+    top: 0;
+    left:6.68rem;
+}
+.content-1 #hot{
+    position: absolute;
+    top: -0.16rem;
+    left: 0.18rem;
+}
+.content-1 .black{
+    width: 0.27rem;
+    height: 0.02rem;
+    background: black;
+    margin: 0.2rem 0 0 0.18rem;
+}
+.content-1 h4{
+    font-size: 0.18rem;
+    color: #000;
+    font-weight: 400;
+    font-family: Arial;
+    margin: 0.1rem 0 0 0.18rem;
+}
+.content-1 h5{
+    font-size: 0.24rem;
+    color: #000;
+    font-weight: 400;
+    margin: 0.1rem 0 0 0.18rem;
+}
+.content-1 h6{
+    font-size: 0.32rem;
+    color: #000;
+    font-weight: 700;
+    font-family: Arial;
+    margin: 0.65rem 0 0 0.18rem;
+    float: left;
+}
+.content-1 h6 span{
+    font-size: 0.12rem;
+}
+.content-1 .bug{
+    width: 1.52rem;
+    height: 0.43rem;
+    float: right;
+    font-size: 0.22rem;
+    color: white;
+    background: #ffcb3f;
+    margin: 0.55rem 0.18rem 0 0;
+    text-align: center;
+    line-height: 0.43rem;
+    border-radius: 0.04rem;
+}
+.content-1 .bug i{
+    font-size: 0.18rem;
+    color: white;
+    background: #ffcb3f;
+}
+.content-1 .img{
+    width: 3.12rem;
+    height: 2.88rem;
+}
+.content-2{
+    height: 16.07rem;
+    margin: 0.57rem 0.25rem 0;
+}
+.content-2 .big-content{
+    width: 7rem;
+    height: 6.93rem;
+    background: white;
+    display: block;
+    position: relative;
+}
+.content-2 .big-content img{
+    width: 6.25rem;
+    height: 2.62rem;
+    margin: 1.1rem 0.37rem 0;
+}
+.content-2 .big-content h3{
+    font-size: 0.40rem;
+    color: #000;
+    font-weight: 700;
+    margin: 0.4rem 0 0 0.37rem;
+}
+.content-2 .big-content h4{
+    font-size: 0.26rem;
+    color: #11100f;
+    font-weight: 400;
+    margin: 0.15rem 0 0 0.37rem;
+}
+.content-2 .big-content h5{
+    font-size: 0.36rem;
+    color: #000;
+    font-weight: 700;
+    font-family: Arial;
+    margin: 0.6rem 0 0 0.37rem;
+}
+.content-2 .big-content span{
+    font-size: 0.2rem;
+    font-weight: 400;
+}
+.content-2 .big-content h6{
+    font-size: 0.2rem;
+    color: #000;
+    font-weight: 400;
+    font-family: Arial;
+    margin: 0.1rem 0 0 0.37rem;
+}
+.content-2 .big-content i{
+    font-size: 0.22rem;
+    color: #ffcb3f;
+}
+.content-2 .big-content .round-1{
+    width: 0.18rem;
+    height: 0.18rem;
+    border-radius: 50%;
+    background: #abe3e6;
+    position: absolute;
+    bottom: 2rem;
+    right: 0.8rem;
+}
+.content-2 .big-content .round-2{
+    width: 0.22rem;
+    height: 0.22rem;
+    border-radius: 50%;
+    background: #cecdca;
+    position: absolute;
+    bottom: 1.6rem;
+    right: 0.78rem;
+}
+.content-2 .big-content .round-3{
+    width: 0.18rem;
+    height: 0.18rem;
+    border-radius: 50%;
+    background: #ffcb3f;
+    position: absolute;
+    bottom: 1.2rem;
+    right: 0.8rem;
+}
+.content-2 .small-content{
+    width: 3.38rem;
+    height: 4.16rem;
+    background: white;
+    margin: 0.24rem 0 0;
+    position: relative;
+}
+.content-2 .small-content a{
+    display: block;
+    width: 3.38rem;
+    height: 4.16rem;
+}
+.content-2 .small-content a h3{
+    font-size: 0.16rem;
+    color: #11100f;
+    font-weight: 400;
+    font-family: Arial;
+    margin: 0 0 0 0.24rem;
+    padding: 0.2rem 0 0 0;
+}
+.content-2 .small-content h4{
+    font-size: 0.3rem;
+    color: #000;
+    font-weight: 700;
+    font-family: Arial;
+    margin: 0.1rem 0 0 0.24rem;
+}
+.content-2 .small-content img{
+    width: 2.4rem;
+    height: auto;
+    margin: 0.2rem 0 0 0.24rem;
+}
+.content-2 .small-content h5{
+    font-size: 0.3rem;
+    color: #000;
+    font-weight: 700;
+    font-family: Arial;
+    margin: 0.1rem 0 0 0.24rem;
+}
+.content-2 .small-content h5 span{
+    font-size: 0.2rem;
+    font-weight: 400;
+}
+.content-2 .small-content h6{
+    font-size: 0.2rem;
+    font-weight: 400;
+    margin: 0.05rem 0 0 0.24rem;
+}
+.content-2 .small-content i{
+    font-size: 0.22rem;
+    color: #ffcb3f;
+}
+.content-2 .small-content .round-1{
+    width: 0.14rem;
+    height: 0.14rem;
+    border-radius: 50%;
+    background: #efd28e;
+    position: absolute;
+    bottom: 1.3rem;
+    right: 0.4rem;
+}
+.content-2 .small-content .round-2{
+    width: 0.18rem;
+    height: 0.18rem;
+    border-radius: 50%;
+    background: #97d1d7;
+    position: absolute;
+    bottom: 1rem;
+    right: 0.38rem;
+}
+.content-2 .small-content .round-3{
+    width: 0.14rem;
+    height: 0.14rem;
+    border-radius: 50%;
+    background: #97a0d7;
+    position: absolute;
+    bottom: 0.7rem;
+    right: 0.4rem;
+}
+.content-2 li{
+    float: left;
+}
+.content-2 .small-content .round-4{
+    width: 0.14rem;
+    height: 0.14rem;
+    border-radius: 50%;
+    background: #a2d7d9;
+    position: absolute;
+    bottom: 1.3rem;
+    right: 0.4rem;
+}
+.content-2 .small-content .round-5{
+    width: 0.18rem;
+    height: 0.18rem;
+    border-radius: 50%;
+    background: #d9a2cf;
+    position: absolute;
+    bottom: 1rem;
+    right: 0.38rem;
+}
+.content-2 .small-content .round-6{
+    width: 0.14rem;
+    height: 0.14rem;
+    border-radius: 50%;
+    background: #d2d9a2;
+    position: absolute;
+    bottom: 0.7rem;
+    right: 0.4rem;
+}
+.content-2 .small-content-1{
+    width: 3.38rem;
+    height: 4.16rem;
+    margin: 0.24rem 0 0 0.24rem;
+    background: white;
+    position: relative;
+}
+.content-2 .small-content-1 a{
+    display: block;
+    width: 3.38rem;
+    height: 4.16rem;
+}
+.content-2 .small-content-1 a h3{
+    font-size: 0.16rem;
+    color: #11100f;
+    font-weight: 400;
+    font-family: Arial;
+    margin: 0 0 0 0.24rem;
+    padding: 0.2rem 0 0 0;
+}
+.content-2 .small-content-1 h4{
+    font-size: 0.3rem;
+    color: #000;
+    font-weight: 700;
+    font-family: Arial;
+    margin: 0.1rem 0 0 0.24rem;
+}
+.content-2 .small-content-1 img{
+    width: 2.4rem;
+    margin: 0.2rem 0 0 0.24rem;
+}
+.content-2 .small-content-1 h5{
+    font-size: 0.3rem;
+    color: #000;
+    font-weight: 700;
+    font-family: Arial;
+    margin: 0.1rem 0 0 0.24rem;
+}
+.content-2 .small-content-1 h5 span{
+    font-size: 0.2rem;
+    font-weight: 400;
+}
+.content-2 .small-content-1 h6{
+    font-size: 0.2rem;
+    font-weight: 400;
+    margin: 0.05rem 0 0 0.24rem;
+}
+.content-2 .small-content-1 i{
+    font-size: 0.22rem;
+    color: #ffcb3f;
+}
+.content-2 .small-content-1 .round-1{
+    width: 0.14rem;
+    height: 0.14rem;
+    border-radius: 50%;
+    background: #7e4bff;
+    position: absolute;
+    bottom: 1.3rem;
+    right: 0.4rem;
+}
+.content-2 .small-content-1 .round-2{
+    width: 0.18rem;
+    height: 0.18rem;
+    border-radius: 50%;
+    background: #ffd34b;
+    position: absolute;
+    bottom: 1rem;
+    right: 0.38rem;
+}
+.content-2 .small-content-1 .round-3{
+    width: 0.14rem;
+    height: 0.14rem;
+    border-radius: 50%;
+    background: #fb82ff;
+    position: absolute;
+    bottom: 0.7rem;
+    right: 0.4rem;
+}
+.content-2 .small-content-1 .round-4{
+    width: 0.14rem;
+    height: 0.14rem;
+    border-radius: 50%;
+    background: #a2d7d9;
+    position: absolute;
+    bottom: 1.3rem;
+    right: 0.4rem;
+}
+.content-2 .small-content-1 .round-5{
+    width: 0.18rem;
+    height: 0.18rem;
+    border-radius: 50%;
+    background: #db8078;
+    position: absolute;
+    bottom: 1rem;
+    right: 0.38rem;
+}
+.content-2 .small-content-1 .round-6{
+    width: 0.14rem;
+    height: 0.14rem;
+    border-radius: 50%;
+    background: #d2d9a2;
+    position: absolute;
+    bottom: 0.7rem;
+    right: 0.4rem;
+}
+.content-2 .empty-1{
+    width: 7rem;
+    height: 0.38rem;
+}
+.big-more{
+    width: 7rem;
+    height: 0.2rem;
+    margin: 0 auto;
+    position: relative;
+}
+.big-more li{
+    float: left;
+    color: #a6a6a6;
+    font-size: 0.2rem;
+    line-height: 0.2rem;
+}
+.big-more .left{
+    width: 1.2rem;
+    height: 0.02rem;
+    background: #a6a6a6;
+    position: absolute;
+    left: 1.5rem;
+    bottom: 0.09rem;
+}
+.big-more .right{
+    width: 1.2rem;
+    height: 0.02rem;
+    background: #a6a6a6;
+    position: absolute;
+    right: 1.5rem;
+    bottom: 0.09rem;
+}
+.big-more .text{
+    position: absolute;
+    left: 3.1rem;
+}
+/*  精品首发内容结束  */
+/*  案例展示内容开始  */
+.empty-1{
+    width: 100%;
+    height: 0.65rem;
+}
+.content-3-img{
+    margin: 0 0.24rem;
+    position: relative;
+}
+.content-3-img img{
+    width: 7.02rem;
+    height: auto;
+}
+.content-3-img .mask{
+    width: 7.02rem;
+    height: 4.4rem;
+    background: rgba(0,0,0,0.1);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.content-3-img i{
+    font-size: 0.5rem;
+    color: white;
+    position: absolute;
+    top: 1.95rem;
+    right: 3.26rem;
+}
+.content-3-img .round{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 1.7rem;
+    right: 3.07rem;
+}
+.content-3-text1{
+    width: 100%;
+    /*height: 1rem;*/
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.3rem;
+    font-family: Arial;
+    font-weight: 700;
+}
+.content-3-text2{
+    width: 100%;
+    /*height: 0.3rem;*/
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 0.24rem;
+    font-weight: 400;
+}
+.content-3-text3{
+    width: 1.38rem;
+    /*height: 0.58rem;*/
+    border-radius: 0.3rem;
+    border: 0.01rem solid #ffcb3f;
+    margin: 0.3rem auto 0;
+    text-align: center;
+    line-height: 0.58rem;
+    font-size: 0.18rem;
+}
+.content-4-img{
+    position: relative;
+    height: 4.34rem;
+}
+.content-4-img img{
+    width: 7.5rem;
+    height: auto;
+}
+.content-4-img .mask-1{
+    width: 7.5rem;
+    height: 3.36rem;
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.content-4-img .bottom{
+    width: 7.5rem;
+    height: 2.56rem;
+    margin: 0.6rem 0 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content-4-img .yellow{
+    width: 1rem;
+    height: 0.02rem;
+    margin: 0.12rem auto;
+    background: #fbca4a;
+}
+.content-4-img .content-4-text1{
+    width: 7.5rem;
+    /*height: 0.22rem;*/
+    font-size: 0.3rem;
+    font-weight: 700;
+    font-family: Arial;
+    line-height: 0.22rem;
+    color: white;
+    text-align: center;
+}
+.content-4-img .content-4-text3{
+    width: 7.5rem;
+    /*height: 0.28rem;*/
+    margin-bottom: 0.15rem;
+    font-size: 0.3rem;
+    font-weight: 700;
+    line-height: 0.28rem;
+    color: white;
+    text-align: center;
+}
+.content-4-img .content-4-text2{
+    width: 7.5rem;
+    /*height: 0.4rem;*/
+    font-size: 0.2rem;
+    font-weight: 400;
+    /*line-height: 0.5rem;*/
+    color: rgba(255,255,255,0.8);
+    text-align: center;
+}
+.content-4-img .empty-2{
+    width: 100%;
+    height: 0.1rem;
+}
+.content-4-img .icon{
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+.content-4-img .icon i{
+    font-size: 0.3rem;
+    display: block;
+}
+#icon-1{
+    color: rgba(255,255,255,0.2);
+    position: absolute;
+    top: 0;
+    right: 3.6rem;
+}
+#icon-2{
+    color: rgba(255,255,255,0.4);
+    position: absolute;
+    top: 0.1rem;
+    right: 3.6rem;
+}
+#icon-3{
+    color: white;
+    position: absolute;
+    top: 0.2rem;
+    right: 3.6rem;
+}
+.case{
+    width: 7.02rem;
+    margin: 0 0.24rem;
+}
+/*  案例展示内容结束  */
+/*  tab栏开始  */
+.tab{
+    width: 100%;
+    height: 0.98rem;
+    background: white;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+}
+.tab a{
+    height: 0.98rem;
+    width: 1.875rem;
+    float: left;
+    color: #000;
+    font-size: 0.18rem;
+    text-align: center;
+    margin-top: 0.12rem;
+}
+.tab .icon-1{
+    color: #ffcb3f;
+    font-weight: 700;
+}
+.tab .icon-4{
+    margin: 0.1rem 0 0 0;
+}
+.tab i{
+    font-size: 0.45rem;
+}
+/*  tab栏结束  */
