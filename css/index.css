@@ -64,14 +64,11 @@ header img{
     position: relative;
     overflow: hidden;
 }
-.banner .big-top-banner{
-    width:100%;
-}
 #banner{
     width: 7.52rem;
 }
 .banner #shadow{
-    width:7.5rem;
+    width: 7.5rem;
     position: absolute;
     top: 0;
     right: 0;
