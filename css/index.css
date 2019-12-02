@@ -64,6 +64,9 @@ header img{
     position: relative;
     overflow: hidden;
 }
+.banner .big-top-banner{
+    width:100%;
+}
 #banner{
     width: 7.52rem;
 }
