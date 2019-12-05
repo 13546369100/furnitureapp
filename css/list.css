@@ -53,14 +53,14 @@ header img{
     height: 0.6rem;
     position: relative;
 }
-/*.search p{*/
-/*    font-size: 0.24rem;*/
-/*    text-align: center;*/
-/*}*/
+.search p{
+    font-size: 0.24rem;
+    text-align: center;
+}
 .search input{
     width: 5.8rem;
     height: 0.58rem;
-    padding-left: 0.36rem;
+    padding-left: 0.45rem;
     border-radius: 0.3rem;
     border: 0.01rem solid #e5e5e5;
     font-size: 0.24rem;
